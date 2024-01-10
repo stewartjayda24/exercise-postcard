@@ -23,7 +23,7 @@ https://github.com/breatheco-de/exercise-postcard
 3. The exercises will start and show the instructions automatically, but if you encounter any issues you can try running them manually by typing in your command line the following:
 
 ```bash
-$ learnpack start
+$ learnpack sta
 ```
 
 ## Instructions

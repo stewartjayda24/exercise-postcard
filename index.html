@@ -3,36 +3,49 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>The Postcard</title>
 		<link rel="stylesheet" href="styles.css" />
-	</head>
-	<body>
-		<div class="postcard">
-			Hello
-			<div>
-				<div class="postcard-header">
-					<div>
-						<h1>My Postcard</h1>
+		<link href="https:
+		<!DOCTYPE html>
+		<html lang="en">
+			<head>
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>The Postcard</title>
+				<link rel="stylesheet" href="styles.css" />
+				<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet"
+			</head>
+			<body>
+				<form class="postcard" action="https://formspree.io/f/{form_id}" method="post">
+					<div class="postcard-header">
 						<img
 							src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
 						/>
+						<h1>My Postcard</h1>
 					</div>
 					<div class="postcard-body">
-						<div>
-							<div class="body-left">I am the left side</div>
-							<div class="body-right">I am the right side"</div>
+						<div class="body-left">
+							<p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+
+							<p>This is so cool, can't wait to start doing more stuff</p>
 						</div>
-						<div class="postcard-footer">
-							<div>
-								<button>Send My Postcard</button>
-							</div>
+						<div class="body-right">
+							<input type="text" name="full name" placeholder="Some name" />
+							<input type="text" name="email" placeholder="Some email" />
+							<input type="text" name="message" placeholder="Some comment" />
 						</div>
-						<body>
-							<html></html>
-						</body>
 					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+					<div class="postcard-footer">
+						<div>
+							<input type="submit" value="Send My Postcard" />
+							<button>Send My Postcard</button>
+						</div>
+					</div>
+					<body>
+						<html></html>
+					</body>
+				</form>
+			</body>
+		</html>
+	</head>
 </html>

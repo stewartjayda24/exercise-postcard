@@ -1,45 +1,62 @@
 body {
 	background: black;
-}
-* {
-	border: 1px dashed red;
-	min-height: 10px;
+	font-size: 20px;
+	font-family: "handlee", cursive;
 }
 .postcard {
 	background: white;
-	width: 400px;
-	height: 300px;
+	width: 500px;
+	height: 350px;
 	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 15px;
 }
 .postcard-header {
-	display: flex;
+	overflow: hidden;
 }
 .postcard-header img {
-	width: 50px;
-	height: 50px;
-}
-.postcard-header h1 {
-	width: x;
-	margin: x;
+	max-width: 60px;
+	float: right;
 }
 .postcard-body {
-	display: flex;
-}
-.body-left p:first-child {
-	margin-top: x;
-}
-.body-left,
-.body-right {
-	padding: x;
+	overflow: hidden;
 }
 input {
-	border: x;
-	border-bottom: x;
+	font-size: 18px;
+	font-family: "handlee", cursive;
+}
+.postcard h1 {
+	margin: 0;
+}
+.body-left {
+	float: left;
+	width: 50%;
+}
+.body-right {
+	float: right;
+	width: 50%;
+}
+.body-right input {
+	display: block;
+}
+h1 {
+	font-size: 35px;
 }
 .postcard-footer {
+	padding: 10px;
 	text-align: center;
 }
-button {
-	background-color: x;
-	padding: x;
+.postcard-footer input[type="submit"] {
+	border: none;
+	border-bottom: 1px grey;
+}
+.postcard-body input[type="text"] {
+	border: none;
+	border-bottom: 1px grey;
+	width: 240px;
+	margin-bottom: 10px;
+	padding: 5px;
 }
